@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col h-svh w-screen">
+    <header class="w-full bg-red-50 flex justify-center py-4">
+      <nav>
+        <ul class="flex gap-4">
+          <li class="text-lg font-semibold">Home</li>
+          <li class="text-lg font-semibold">Sobre</li>
+          <li class="text-lg font-semibold">Contato</li>
+        </ul>
+      </nav>
+    </header>
+    <section class="flex bg-yellow-50 grow">
+      <aside class="w-1/4 p-3">
+        <details>
+          <summary>Conteúdo da página</summary>
+          <ul>
+            <li>Nossos Produtos</li>
+            <li>Nossos Serviços</li>
+            <li>Endereço</li>
+          </ul>
+        </details>
+      </aside>
+      <main class="w-3/4 bg-green-50">
+        <section class="p-6">
+          <article>
+            <h1
+              class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl"
+            >
+              Seja bem-vindo
+            </h1>
+            <p class="leading-7 [&:not(:first-child)]:mt-6">
+              A cozinha é muito mais do que apenas o lugar onde preparamos
+              nossas refeições diárias. É um espaço onde a criatividade se
+              mistura com os sabores, onde cada ingrediente conta uma história e
+              cada prato é uma obra-prima em potencial. Seja você um chef
+              experiente ou um entusiasta culinário, este é o lugar onde você
+              pode se perder nos aromas tentadores, explorar novas técnicas e
+              compartilhar a alegria de uma boa refeição.
+            </p>
+            <blockquote class="mt-6 border-l-2 pl-6 italic">
+              "Na cozinha, como na vida, é a paixão que tempera cada prato e
+              transforma o simples ato de cozinhar em uma experiência
+              extraordinária."
+            </blockquote>
+          </article>
+          <div class="my-6 w-full overflow-y-auto">
+            <table class="w-full">
+              <thead>
+                <tr class="m-0 border-t p-0 even:bg-muted">
+                  <th
+                    class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Categoria
+                  </th>
+                  <th
+                    class="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Receitas Populares
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="m-0 border-t p-0 even:bg-muted">
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Café da Manhã
+                  </td>
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Panquecas Americanas, Ovos Benedict
+                  </td>
+                </tr>
+                <tr class="m-0 border-t p-0 even:bg-muted">
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Almoço
+                  </td>
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Risoto de Cogumelos, Frango Assado com Ervas
+                  </td>
+                </tr>
+                <tr class="m-0 border-t p-0 even:bg-muted">
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Jantar
+                  </td>
+                  <td
+                    class="border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right"
+                  >
+                    Espaguete à Carbonara, Bife ao Molho de Vinho Tinto
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </section>
+    <footer class="w-full bg-red-50 px-6 py-4 flex flex-col items-center">
+      <section class="flex justify-between w-full">
+        <div>
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight">
+            Siga-nos:
+          </h4>
+          <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight">
+            Contate-nos:
+          </h4>
+          <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+            <li>Email: [seuemail@dominio.com]</li>
+            <li>Telefone: [+XX XXXX-XXXX]</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="scroll-m-20 text-xl font-semibold tracking-tight">
+            Horário de Funcionamento:
+          </h4>
+          <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+            <li>Email: [seuemail@dominio.com]</li>
+            <li>Telefone: [+XX XXXX-XXXX]</li>
+          </ul>
+        </div>
+      </section>
+
+      <small class="text-sm font-medium leading-none"
+        >Copyright © 2024 Nosso Mundo de Sabores. Todos os direitos reservados.
+      </small>
+    </footer>
+  </body>
+</html>
