@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="flex flex-col h-svh w-screen">
+  <body class="flex flex-col h-svh w-screen overflow-x-hidden">
     <header class="w-full bg-red-50 flex justify-center py-4">
       <nav>
         <ul class="flex gap-4">
@@ -105,6 +105,34 @@
               </tbody>
             </table>
           </div>
+          <article>
+            <h2
+              class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+            >
+              Como Fazer Panquecas Americanas
+            </h2>
+            <figure>
+              <img class="w-full h-40 object-cover" src="https://realfood.tesco.com/media/images/American-pancakes-LGH-21fbfc2e-6462-4078-92ed-e830f88784be-0-1400x919.jpg" alt="Panquecas Americanas" />
+              <figcaption>As deliciosas panquecas americanas.
+            </figure>
+            <p class="leading-7 [&:not(:first-child)]:mt-6">
+              As panquecas americanas são um clássico café da manhã, perfeitas
+              para começar o dia com energia.
+            </p>
+            <p class="leading-7 [&:not(:first-child)]:mt-6">Ingredientes:</p>
+            <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
+              <li>1 xícara de farinha de trigo</li>
+              <li>2 colheres de sopa de açúcar</li>
+              <li>1 colher de chá de fermento em pó</li>
+              <li>1/2 colher de chá de sal</li>
+              <li>1 ovo</li>
+              <li>1 xícara de leite</li>
+              <li>2 colheres de sopa de manteiga derretida</li>
+            </ul>
+            <p class="text-sm text-muted-foreground">
+              Para ver a receita completa, <a href="#">clique aqui</a>.
+            </p>
+          </article>
         </section>
       </main>
     </section>
@@ -120,7 +148,7 @@
             <li>Twitter</li>
           </ul>
         </div>
-        <div>
+        <address>
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight">
             Contate-nos:
           </h4>
@@ -128,15 +156,15 @@
             <li>Email: [seuemail@dominio.com]</li>
             <li>Telefone: [+XX XXXX-XXXX]</li>
           </ul>
-        </div>
+        </address>
 
         <div>
           <h4 class="scroll-m-20 text-xl font-semibold tracking-tight">
             Horário de Funcionamento:
           </h4>
           <ul class="my-6 ml-6 list-disc [&>li]:mt-2">
-            <li>Email: [seuemail@dominio.com]</li>
-            <li>Telefone: [+XX XXXX-XXXX]</li>
+            <li>Segunda a Sexta: 9h às 18h</li>
+            <li>Sábado e Domingo: Fechado</li>
           </ul>
         </div>
       </section>
